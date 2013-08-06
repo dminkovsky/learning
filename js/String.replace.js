@@ -17,25 +17,19 @@ test('String.replace', function(t) {
 
   t.deepEqual(
       matches
-    , ['ab1cd', 'ab2cd', 'ab3cd']
-    , '')
+    , ['ab1cd', 'ab2cd', 'ab3cd'])
 
   t.deepEqual(
       submatches
-    , ['1', '2', '3']
-    , '')
+    , ['1', '2', '3'])
 
   t.deepEqual(
       offsets
-    , [0, 5, 10]
-    , ''
-  )
+    , [0, 5, 10])
 
   t.deepEqual(
       strings
-    , [str, str, str]
-    , ''
-  )
+    , [str, str, str])
 
   t.end()
 })
